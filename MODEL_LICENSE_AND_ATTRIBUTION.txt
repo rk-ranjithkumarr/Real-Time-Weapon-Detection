@@ -1,0 +1,14 @@
+Model attribution
+-----------------
+Repository: cosgun99/gun-knife-yolo11n
+Model file: best.pt
+Model license: MIT (as stated on the Hugging Face model page)
+Source: https://huggingface.co/cosgun99/gun-knife-yolo11n
+
+The model card says the model detects two classes:
+0 = gun
+1 = knife
+
+The model card describes the intended use as academic demonstration and comparative evaluation, and says it should not be used as a standalone safety-critical detection system without additional validation.
+
+Keep the upstream model license and attribution with any redistribution of the model file.

@@ -1,0 +1,11 @@
+ALERT BEHAVIOR
+==============
+
+1. A gun or knife is detected above the configured confidence threshold.
+2. The red detection box and warning appear immediately.
+3. The included emergency-style WAV alarm starts and LOOPS continuously.
+4. The alarm keeps sounding for as long as a weapon remains detected.
+5. When the detector sees no weapon, the alarm stops automatically.
+6. One snapshot and one CSV event are saved when each new alert starts.
+
+Windows uses the built-in winsound module, so there is no additional audio package.
